@@ -1,5 +1,7 @@
 # Classificação de Frutas da familia [Annonaceae](https://pt.wikipedia.org/wiki/Annonaceae) Utilizando Transfer Learning com Deep Learning
 
+![datase](images/dataset.png)
+
 Este projeto utiliza Transfer Learning para classificar imagens de frutas em duas categorias: **fruta do conde** e **araticum**. A implementação foi realizada em Python no ambiente Google Colab, usando uma pequena base de dados própria com 150 imagens para cada classe.
 
 ## 📋 Descrição
@@ -28,7 +30,7 @@ Transfer Learning é uma técnica poderosa no campo de Deep Learning que permite
 A base de dados contém:
 - **150 imagens da fruta do conde**
 - **150 imagens do araticum**
-
+![datase1](images/dataset1.png)
 As imagens foram organizadas em duas pastas:
 
     Annonaceae/
