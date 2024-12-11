@@ -57,4 +57,6 @@ As imagens foram organizadas em duas pastas:
 
 ## 🖼️ Exemplos de Resultados
 
-Adicione aqui exemplos de resultados, como imagens classificadas ou gráficos de desempenho do modelo.
+![fig](comparacao.png}
+
+Observe que, embora o primeiro modelo (linha azul) tenha começado a mostrar sinais de estabilidade e uma leve oscilação na perda de validação após cerca de 15 épocas, o segundo modelo (linha laranja) apresenta um comportamento de aprendizagem mais consistente. O segundo modelo continuou a reduzir a perda de validação ao longo do tempo, indicando um ajuste mais eficaz aos dados, mesmo após o mesmo número de épocas.
