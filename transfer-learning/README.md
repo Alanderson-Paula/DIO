@@ -23,6 +23,7 @@ Transfer Learning é uma técnica poderosa no campo de Deep Learning que permite
 
 - `transfer-learning.ipynb`: Código-fonte principal para treinar e avaliar o modelo.
 - `Annonaceae/`: Diretório que contém um arquivo `.zip` com as imagens organizadas em subpastas, sendo cada subpasta correspondente a uma classe.
+- `images`: Imagens usadas para o treinamento.
 - `README.md`: Documentação do projeto.
 
 ## 📊 Base de Dados
