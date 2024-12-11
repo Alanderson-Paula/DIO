@@ -30,7 +30,9 @@ Transfer Learning é uma técnica poderosa no campo de Deep Learning que permite
 A base de dados contém:
 - **150 imagens da fruta do conde**
 - **150 imagens do araticum**
+- 
 ![datase1](images/dataset1.png)
+
 As imagens foram organizadas em duas pastas:
 
     Annonaceae/
