@@ -49,7 +49,7 @@ Plota três imagens lado a lado para comparação: a imagem original, a imagem e
 ## Exemplo de Estrutura de Diretórios:
 
 ```bash
-/reduzir_dimensao_img
+/reduzir_dimensao
 ├── /img              # Pasta que contém as imagens originais
 │   ├─ imagem1.jpg
 │   ├─ imagem2.jpg
