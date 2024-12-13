@@ -1,5 +1,5 @@
 # Desafio de Projeto 2: Conversão de Imagens
-##  RGB → Tons de Cinza → Preto e Branco
+## 📊 RGB → 🌫️Tons de Cinza → 🔳 Preto e Branco
 
 ## Objetivo
 
