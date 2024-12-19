@@ -20,9 +20,42 @@ Tabela 1: Visão geral das métricas usadas para avaliar métodos de classifica�
 
 <p>
 <center>
-  
+
 Matriz de confusão
 </center>
 </p>
 
 ![ifg](img/matrizConfusao-600x381.png)
+
+
+
+### Métricas de Classificação:
+
+O modelousado é composto por 300 imagens de frutas da familia das Amonaceas.
+
+<P>
+<center>
+
+|Métrica|Valor|
+|-|-|
+|Accuracy       | 0.83|
+Precision       | 0.88
+Recall          | 0.77
+Especificidade  | 0.89
+f1 score        | 0.82
+</center>
+<p>
+
+<P>
+<center>
+
+![fig2](img/matriz.png)
+</center>
+<p>
+
+<P>
+<center>
+
+![fig2](img/curva.png)
+</center>
+<p>
