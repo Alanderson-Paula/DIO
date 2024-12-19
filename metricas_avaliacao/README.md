@@ -19,7 +19,5 @@ Tabela 1: Visão geral das métricas usadas para avaliar métodos de classifica�
 
 
 
-<p><center>
 Matriz de confusão
 ![ifg](img/matrizConfusao-600x381.png)
-</center></p>
