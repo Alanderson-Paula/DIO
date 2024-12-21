@@ -3,7 +3,6 @@
 O trabalho deve conter pelo menos duas classes retreinadas para detecção, além das classes já treinadas previamente antes de realizar o transfer learning.
 
 Por meio da imagem é possível visualizar um exemplo de resultado esperado:
-
 ![fig](imagens/yolo.jpeg)
 
 
@@ -48,5 +47,3 @@ Utilizamos um pequeno conjunto de imagens contendo 100 fotos. Todas as imagens f
 - [YOLOv4 Paper](https://arxiv.org/abs/2004.10934)
 - [LabelImg GitHub](https://github.com/tzutalin/labelImg)
 
-## Contato
-- Para mais informações, entre em contato pelo email: [seuemail@exemplo.com](mailto:seuemail@exemplo.com)
