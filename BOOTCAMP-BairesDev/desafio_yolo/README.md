@@ -3,9 +3,10 @@
 O trabalho deve conter pelo menos duas classes retreinadas para detecção, além das classes já treinadas previamente antes de realizar o transfer learning.
 
 Por meio da imagem é possível visualizar um exemplo de resultado esperado:
-![fig](imagens/yolo.jpeg)
 
-
+<P><center>
+    ![fig](imagens/yolo.jpeg)
+</center></P>
 
 ## Descrição
 Este desafio consiste em adicionar mais duas classes a uma rede [YOLOv4](https://docs.ultralytics.com/pt/models/yolov4/#what-are-bag-of-freebies-in-the-context-of-yolov4) previamente treinada. As classes escolhidas são "abacate" e "chuchu".
