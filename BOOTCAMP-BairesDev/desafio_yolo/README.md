@@ -4,11 +4,7 @@ O trabalho deve conter pelo menos duas classes retreinadas para detecção, alé
 
 Por meio da imagem é possível visualizar um exemplo de resultado esperado:
 
-<p>
-    <center>
-        ![fig](imagens/yolo.jpeg)
-    </center>
-</p>
+![fig](imagens/yolo.jpeg)
 
 ## Descrição
 Este desafio consiste em adicionar mais duas classes a uma rede [YOLOv4](https://docs.ultralytics.com/pt/models/yolov4/#what-are-bag-of-freebies-in-the-context-of-yolov4) previamente treinada. As classes escolhidas são "abacate" e "chuchu".
