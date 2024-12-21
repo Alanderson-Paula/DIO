@@ -4,7 +4,7 @@ O trabalho deve conter pelo menos duas classes retreinadas para detecção, alé
 
 Por meio da imagem é possível visualizar um exemplo de resultado esperado:
 
-![fig](imagens/yolo.png)
+![fig](imagens/yolo.jpeg)
 
 
 
@@ -26,7 +26,7 @@ Utilizamos um pequeno conjunto de imagens contendo 100 fotos. Todas as imagens f
 2. **Rotulação das Imagens**:
     - Utilize o [LabelImg](https://github.com/tzutalin/labelImg) para rotular as imagens com as novas classes "abacate" e "chuchu".
 
-    ![fig](l_img.JPG)
+    ![fig](imagens/l_img.JPG)
 
 3. **Treinamento da Rede**:
     - Adicione as novas classes ao arquivo de configuração da [YOLOv4](https://docs.ultralytics.com/pt/models/yolov4/#what-are-bag-of-freebies-in-the-context-of-yolov4).
