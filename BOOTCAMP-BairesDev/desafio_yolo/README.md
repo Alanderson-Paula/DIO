@@ -31,25 +31,25 @@ Utilizamos um pequeno conjunto de imagens contendo 100 fotos. Todas as imagens f
 
 4. **Avaliação**:
     - Contagem de Detecções:
-        detections_count = 92: Número total de detecções feitas pela rede no conjunto de teste.
-        unique_truth_count = 34: Número total de objetos reais no conjunto de teste.
+        - detections_count = 92: Número total de detecções feitas pela rede no conjunto de teste.
+        - unique_truth_count = 34: Número total de objetos reais no conjunto de teste.
     - Resultados por Classe:
-        Abacate (class_id = 0):
-            AP (Average Precision): 76.83%
-            True Positives (TP): 12
-            False Positives (FP): 2
-        Chuchu (class_id = 1):
-            AP: 73.43%
-            TP: 13
-            FP: 4
-        Ambos os valores de AP são adequados para muitas aplicações, embora haja espaço para melhorias, especialmente na classe "chuchu".
+        - Abacate (class_id = 0):
+            - AP (Average Precision): 76.83%
+            - True Positives (TP): 12
+            - False Positives (FP): 2
+        - Chuchu (class_id = 1):
+            - AP: 73.43%
+            - TP: 13
+            - FP: 4
+        - Ambos os valores de AP são adequados para muitas aplicações, embora haja espaço para melhorias, especialmente na classe "chuchu".
 
     - Métricas Gerais:
-        Precision: 81% (precisão das detecções positivas).
-        Recall: 74% (cobertura de objetos reais identificados).
-        F1-score: 77% (balanceia precisão e recall).
-        IoU médio: 63.67% (média da sobreposição entre caixas previstas e reais).
-        mAP@0.50: 75.13% (desempenho global da rede para detecção com IoU ≥ 50%).
+        - Precision: 81% (precisão das detecções positivas).
+        - Recall: 74% (cobertura de objetos reais identificados).
+        - F1-score: 77% (balanceia precisão e recall).
+        - IoU médio: 63.67% (média da sobreposição entre caixas previstas e reais).
+        - mAP@0.50: 75.13% (desempenho global da rede para detecção com IoU ≥ 50%).
 
 ## Resultados
 - No primeiro teste foi usado uma imagem contendo um elemento de cada classe, a rede não foi capaz de identificar corretamente o abacate, podemos ver que existe uma caixa de cada classe.
