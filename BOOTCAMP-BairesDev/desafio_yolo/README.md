@@ -50,6 +50,7 @@ Utilizamos um pequeno conjunto de imagens contendo 100 fotos. Todas as imagens f
         - F1-score: 77% (balanceia precisão e recall).
         - IoU médio: 63.67% (média da sobreposição entre caixas previstas e reais).
         - mAP@0.50: 75.13% (desempenho global da rede para detecção com IoU ≥ 50%).
+          
     `A relação entre detections_count e unique_truth_count é importante para entender a precisão do modelo. Aqui, a precisão é de 81%, o que indica que a maioria das detecções feitas são úteis, mas ainda há 6 falsas detecções.`
 ## Resultados
 - No primeiro teste foi usado uma imagem contendo um elemento de cada classe, a rede não foi capaz de identificar corretamente o abacate, podemos ver que existe uma caixa de cada classe.
