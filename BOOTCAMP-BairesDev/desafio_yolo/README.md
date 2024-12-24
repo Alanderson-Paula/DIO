@@ -52,15 +52,15 @@ Utilizamos um pequeno conjunto de imagens contendo 100 fotos. Todas as imagens f
         - mAP@0.50: 75.13% (desempenho global da rede para detecção com IoU ≥ 50%).
           
 ## Resultados
-- No primeiro teste foi usado uma imagem contendo um elemento de cada classe, a rede não foi capaz de identificar corretamente o abacate, podemos ver que existe uma caixa de cada classe.
+- No primeiro teste foi usado uma imagem contendo um elemento de cada classe, a rede foi capaz de identificar corretamente o abacate e o chuchu.
 
 ![teste1](imagens/teste1.png)
 
-- Na segunda imagen de teste o resultado já foi melhor, as caixas delimitadoras ainda não esta cobrindo todo o chuchu, mas, por ter treinado apenas 900 épocas o resultado não esta ruim.
+- Na segunda imagen de teste o resultado já foi melhor, as caixas delimitadoras ainda não esta cobrindo todo o chuchu, mas, por ter treinado apenas 1200 épocas o resultado não esta ruim.
 
 ![teste2](imagens/teste2.png)
 
-- Treceira imagem de teste, imagem apenas com abacates que foram bem detectados pela rede.
+- Nessa ultima imagem de teste, imagem apenas com abacates que foram bem detectados pela rede.
 
 ![teste3](imagens/teste3.png)
 
