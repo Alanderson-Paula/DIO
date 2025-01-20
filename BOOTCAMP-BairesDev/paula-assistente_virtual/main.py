@@ -3,7 +3,7 @@ import webbrowser
 
 import requests
 import speech_recognition as sr
-from const import PASTA_AUDIOS, PASTA_TEXTOS
+from const import PASTA_AUDIO, PASTA_TEXTO
 from conversor import converter_texto_em_audio, falar, salvar_fala_em_texto
 
 
@@ -103,13 +103,13 @@ def executar_comando(frase):
         falar("Diga algo que eu devo salvar como texto.")
         fala = ouvir_microfone()
         if fala:
-            caminho_texto = salvar_fala_em_texto(fala, PASTA_TEXTOS)
+            caminho_texto = salvar_fala_em_texto(fala, PASTA_TEXTO)
             if caminho_texto:
                 falar("Deseja que eu converta esse texto em áudio?")
                 resposta = ouvir_microfone()
                 if "sim" in resposta or "por favor" in resposta or "ok" in resposta:
                     falar("Convertendo o texto em áudio.")
-                    converter_texto_em_audio(caminho_texto, PASTA_AUDIOS)
+                    converter_texto_em_audio(caminho_texto, PASTA_AUDIO)
 
     elif "vídeo" in frase or "vídeos" in frase:
         termo = frase.replace("vídeo", "").replace("vídeos", "").strip()
