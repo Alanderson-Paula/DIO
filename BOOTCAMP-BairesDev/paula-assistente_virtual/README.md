@@ -9,13 +9,13 @@ Paula é uma assistente virtual interativa desenvolvida em Python que permite re
 A organização do projeto é a seguinte:
 
 ```bash
-/paula-assistente_virtual
-|                |-- const.py      # constantes do projetos
-|                |-- conversor.py  # Código dos conversores de fala e texto
-|                |-- main.py       # Código principal da assistente
-|-- textos/                        # Pasta para armazenar textos convertidos da fala
-|-- audio/                         # Pasta para armazenar áudios gerados a partir dos textos
-|-- README.md                      # Documentação do projeto
+paula-assistente_virtual/
+│                       ├── const.py      # constantes do projetos
+|                       ├── conversor.py  # Código dos conversores de fala e texto
+|                       └── main.py       # Código principal da assistente
+├── textos/                               # Armazena texto convertido da fala
+├── audio/                                # Armazena áudio gerado a partir do texto
+└── README.md                             # Documentação do projeto
 ```
 
 ---
