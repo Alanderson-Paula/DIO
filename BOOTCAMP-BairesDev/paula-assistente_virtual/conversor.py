@@ -13,7 +13,7 @@ def falar(texto):
     engine.runAndWait()
 
 
-def converter_texto_em_audio(caminho_texto, pasta_audios):
+def converter_texto_em_audio(caminho_texto, pasta_audio):
     """
     #### Converte o conteúdo de um arquivo de texto em áudio e salva na pasta audio/.
 
@@ -24,13 +24,13 @@ def converter_texto_em_audio(caminho_texto, pasta_audios):
     :return: None
     """
     try:
-        if not os.path.exists(pasta_audios):
-            os.makedirs(pasta_audios)
+        if not os.path.exists(pasta_audio):
+            os.makedirs(pasta_audio)
         with open(caminho_texto, "r", encoding="utf-8") as file:
             conteudo = file.read()
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        arquivo_audio = f"{pasta_audios}audio_{timestamp}.mp3"
+        arquivo_audio = f"{pasta_audio}audio_{timestamp}.mp3"
         engine.save_to_file(conteudo, arquivo_audio)
         engine.runAndWait()
         print(f"Áudio salvo em {arquivo_audio}")
@@ -40,7 +40,7 @@ def converter_texto_em_audio(caminho_texto, pasta_audios):
         falar("Houve um erro ao tentar gerar o áudio.")
 
 
-def salvar_fala_em_texto(fala, pasta_textos):
+def salvar_fala_em_texto(fala, pasta_texto):
     """
     #### Salva a fala em um arquivo de texto na pasta textos/.
 
@@ -52,10 +52,10 @@ def salvar_fala_em_texto(fala, pasta_textos):
 
     """
     try:
-        if not os.path.exists(pasta_textos):
-            os.makedirs(pasta_textos)
+        if not os.path.exists(pasta_texto):
+            os.makedirs(pasta_texto)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        arquivo_texto = f"{pasta_textos}fala_{timestamp}.txt"
+        arquivo_texto = f"{pasta_texto}fala_{timestamp}.txt"
         with open(arquivo_texto, "w", encoding="utf-8") as file:
             file.write(fala)
         print(f"Fala salva em {arquivo_texto}")
