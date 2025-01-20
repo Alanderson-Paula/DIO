@@ -1,2 +1,2 @@
-PASTA_TEXTOS='textos/'
-PASTA_AUDIOS='audios/'
+PASTA_TEXTO='textos/'
+PASTA_AUDIO='audios/'
