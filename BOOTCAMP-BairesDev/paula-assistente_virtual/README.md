@@ -22,7 +22,7 @@ paula-assistente_virtual/
 
 ## Funcionalidades
 
-1. **Abrir aplicativos**: Paula pode abrir aplicativos como navegador, calculadora, bloco de notas, Excel, Word, e Paint com comandos de voz.
+1. **Abrir aplicativos**: Paula pode abrir aplicativos como navegador e calculadora com comandos de voz.
 2. **Pesquisar no YouTube**: Execute uma pesquisa no YouTube dizendo o que deseja assistir.
 3. **Salvar fala como texto**: Converta sua fala em um arquivo `.txt` e salve automaticamente na pasta `textos/`.
 4. **Converter texto em áudio**: Transforme textos salvos em arquivos de áudio `.mp3` na pasta `audio/`.
@@ -106,7 +106,7 @@ pip install pyttsx3 SpeechRecognition
       - **Comando:** `OK Paula, remover comando abrir câmera.`
       - **Ação:** O comando "abrir câmera" será removido da lista de comandos reconhecidos.
 
-2. **Aprimorar reconhecimento de voz**: Implementar modelos mais avançados de reconhecimento de fala para maior precisão, como integração com APIs externas (e.g., Google Cloud Speech-to-Text).
+2. **Aprimorar reconhecimento de voz**: Implementar modelos mais avançados de reconhecimento de fala para maior precisão, como integração com APIs externas.
 3. **Integração com serviços de pesquisa**: Adicionar funcionalidades para buscar informações mais detalhadas na web, como localização, horários de funcionamento e descrições de locais.
 4. **Feedback por texto**: Permitir que os usuários vejam no console ou em um arquivo log o comando reconhecido para validar interações.
 5. **Personalização de comandos**: Desenvolver uma interface gráfica simples para gerenciar a lista de comandos de maneira visual, além do comando de voz.
