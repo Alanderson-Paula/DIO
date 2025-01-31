@@ -56,12 +56,12 @@ O sistema está organizado em várias etapas:
 
    Analisando os resultados:
 
-   |Transfer Learning|||||Ajuste Fino||
-   |-|-|-|-|-|-|-|
-   |Acurácia no treinamento:| 0.2990 (29.90%)||||Acurácia no treinamento: |0.6979 (69.79%)|
-   |Loss no treinamento:| 1.4838||||Loss no treinamento:| 0.9605|
-   |Acurácia no teste: |0.42 (42%)||||Acurácia no teste: |0.70 (70%)|
-   |Loss no teste: |1.43||||Loss no teste: |0.90|
+   |Transfer Learning| Resultado|Ajuste Fino|Resultado|
+   |-|-|-|-|
+   |Acurácia no treinamento:| 0.2990 (29.90%)|Acurácia no treinamento: |0.6979 (69.79%)|
+   |Loss no treinamento:| 1.4838|Loss no treinamento:| 0.9605|
+   |Acurácia no teste: |0.42 (42%)|Acurácia no teste: |0.70 (70%)|
+   |Loss no teste: |1.43|Loss no teste: |0.90|
 
 
 ### Interpretação
