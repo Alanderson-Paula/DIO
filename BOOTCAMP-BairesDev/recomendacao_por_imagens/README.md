@@ -44,7 +44,11 @@ O sistema está organizado em várias etapas:
    As características das imagens foram extraídas utilizando o modelo treinado para gerar embeddings. Esses embeddings representam um vetor de características da imagem.
 
 5. **Recomendações Baseadas em Similaridade**
-   As características foram extraídas das imagens utilizando o modelo treinado. A similaridade de cosseno foi calculada entre as características da imagem consultada e as imagens do banco de dados. Essa métrica retorna valores entre 0 e 1, sendo que valores próximos de 1 indicam maior similaridade.
+   As características foram extraídas das imagens utilizando o modelo treinado. A similaridade de cosseno foi calculada entre as características da imagem consultada e as imagens do banco de dados. Essa métrica retorna valores entre -1 e 1, sendo que valores próximos de 1 indicam maior similaridade.
+   - Significado:
+      - Se o resultado for 1, os vetores são idênticos (ângulo de 0°).
+      - Se for 0, os vetores são ortogonais (ângulo de 90°).
+      - Se for -1, os vetores são opostos (ângulo de 180°).
 
 ## Resultados Obtidos
 
