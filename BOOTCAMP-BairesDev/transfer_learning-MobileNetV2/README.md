@@ -5,11 +5,8 @@ Este projeto utiliza **Transfer Learning** com a arquitetura **MobileNetV2** par
 
 ## 📂 Estrutura do Projeto
 ```
-Projeto_Transfer_Learning/
-├── conjunto_dados/          # Contém os datasets de treino, validação e teste
-│   ├── treino/
-│   ├── validacao/
-│   ├── teste/
+Transfer_Learning-MobileNetV2/
+├── conjunto_dados.zip/      # Contém os datasets de treino, validação e teste
 |
 ├── img/                     # Imagens
 ├── modelos/                 # Diretório para salvar os modelos treinados
