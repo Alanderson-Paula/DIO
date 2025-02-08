@@ -35,7 +35,7 @@ O projeto está organizado nos seguintes módulos:
 
 ## Conjunto de Dados
 Uma pequena amostra do conjunto de dados.
-[dataset](img/dataset1.png)
+![dataset](img/dataset1.png)
 ## 🏋️ Treinamento do Modelo
 O modelo foi treinado em duas etapas:
 
@@ -57,7 +57,7 @@ Após o primeiro treinamento, algumas camadas convolucionais da MobileNetV2 fora
 - Acurácia final de validação: **91.2%**
 - Melhorias observadas: **Melhoria significativa na precisão, com melhor adaptação às classes do dataset.**
 
-[hist](img/hist.png)
+![hist](img/hist.png)
 ## 📊 Avaliação do Modelo
 Após o treinamento, o modelo foi avaliado utilizando o conjunto de teste.
 
@@ -68,13 +68,13 @@ Após o treinamento, o modelo foi avaliado utilizando o conjunto de teste.
   - Fruta do Conde: **90 imagens**
   - Araticum: **90 imagens**
 - **Matriz de Confusão:** O modelo demonstrou uma boa capacidade de diferenciação entre as classes, com poucos erros de classificação.
-[conf](img/conf.png)
+![conf](img/conf.png)
 - **Curva ROC:** A área sob a curva (AUC) apresentou um valor próximo de **0.94**, indicando um bom desempenho geral.
 ![roc](img/roc.png)
 
 ## 📊 Visualização de exemplos classificados corretamente e incorretamente.
-[transf](img/trans.JPG)
-[trans1](img/trans1.JPG)
+![transf](img/trans.JPG)
+![trans1](img/trans1.JPG)
 
 
 ## 📌 Conclusão
