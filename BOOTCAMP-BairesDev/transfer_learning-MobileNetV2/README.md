@@ -31,7 +31,7 @@ O projeto está organizado nos seguintes módulos:
 - **tf.data.Dataset**: Para otimizar o carregamento das imagens
 - **Matplotlib e Seaborn**: Para visualização dos resultados e análise
 - **Scikit-learn**: Para cálculo da matriz de confusão
-- **Python 3.8+**
+- **Python 3.7+**
 
 ## Conjunto de Dados
 Uma pequena amostra do conjunto de dados.
