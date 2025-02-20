@@ -5,6 +5,7 @@ class ContaBancaria:
     """
     #### Representa uma conta bancária simples com funcionalidades básicas de saque, depósito e extrato.
     """
+
     def __init__(self, saldo=0.0, limite=500, limite_saques=3):
         """
         #### Inicializa a conta bancária com um saldo inicial, limite de saque e número máximo de saques permitidos.
@@ -26,13 +27,16 @@ class ContaBancaria:
         :param valor: (float) Valor a ser sacado.
         :return: (bool) True se o saque foi bem-sucedido, False caso contrário.
         """
+        if valor <= 0.0:
+            print("Operação falhou! O valor informado é inválido.")
+            return False
         if valor and self.saldo == 0.0:
             print(
                 'Necessário realizar depósito, saldo em conta igual a R$ 0.0. Utilize a opção 2.')
             return False
-        elif valor > self.saldo:
+        if valor > self.saldo:
             print(
-                f"Você não tem saldo suficiente. Saldo atual R$ {self.saldo:.2f}.")
+                f"Você não tem saldo suficiente. Saldo atual  em conta R$ {self.saldo:.2f}.")
             return False
         if valor > self.limite:
             print(
