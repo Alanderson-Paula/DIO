@@ -1,4 +1,4 @@
-# Banco Simples
+# Sistema Bancário Simples
 
 Este projeto implementa um **Sistema Bancário Simples** com funcionalidades básicas, incluindo **saque**, **depósito** e **extrato**.
 
@@ -62,5 +62,5 @@ def exibir_menu(opcao_selecionada=None):
 - Interface gráfica para melhor experiência do usuário.
 
 ---
-🚀 Desenvolvido por [**Alanderson de Paula**](alanderson.paula@gmail.com)
+🚀 Desenvolvido por **Alanderson de Paula**
 
