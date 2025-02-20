@@ -1,15 +1,66 @@
-**Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas** 😎
+# Banco Simples
 
-Já dominamos o universo do desenvolvimento Python e projeto "Criando um Sistema Bancário com Python" oferece uma experiência prática de desenvolvimento de software financeiro. Os participantes construirão um sistema completo, abordando funcionalidades como criação de contas, transações e segurança. É uma oportunidade para aprimorar habilidades de programação Python e compreender conceitos financeiros e de segurança.
+Este projeto implementa um **Sistema Bancário Simples** com funcionalidades básicas, incluindo **saque**, **depósito** e **extrato**.
 
-Repositórios Git
-O Git é um conceito essencial no mercado de trabalho atualmente, por isso sempre reforçamos sua importância em nossa metodologia educacional. Por isso, todo código-fonte desenvolvido durante este conteúdo foi versionado usando :
+## 📌 Funcionalidades
 
-https://github.com/digitalinnovationone/trilha-python-dio: Repositório com todo o código-fonte desenvolvido nesta Formação;
+- Realizar **saques** dentro de um limite estabelecido.
+- Efetuar **depósitos** na conta.
+- Exibir um **extrato detalhado** das transações, incluindo data e hora.
+- Interface interativa via terminal com **menu dinâmico**, destacando a opção selecionada.
 
-https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/desafio.py: Aqui você tem acesso ao acesso do projeto em questão.
+## 📷 Demonstração
 
-Para acessar os slides clique AQUI
+### 📌 Interface do Menu
 
+![men1](img/menu.JPG)
 
-Bons estudos 😉
+### 📌 Seleção de Opções
+
+![menu2](img/menu1.JPG)
+![menu3](img/menu2.JPG)
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python** (versão 3.x)
+- **Colorama** para destacar opções do menu
+- **Os** para limpar a tela no terminal
+- **Datetime** para registrar data e hora das transações
+
+## 🏦 Estrutura do Código
+
+### 🔹 Classe `ContaBancaria`
+
+A classe `ContaBancaria` gerencia as operações bancárias, incluindo saque, depósito e extrato.
+
+```python
+class ContaBancaria:
+    def __init__(self, saldo=0.0, limite=500.0, limite_saques=3):
+        self.saldo = saldo
+        self.limite = limite
+        self.limite_saques = limite_saques
+        self.numero_saques = 0
+        self.extrato = []
+```
+
+### 🔹 Menu Dinâmico
+
+O menu exibe as opções de forma interativa e destaca a opção selecionada.
+
+```python
+def exibir_menu(opcao_selecionada=None):
+    print(f'║ {(Fore.GREEN if opcao_selecionada == "1" else "")}1 - SAQUE{Style.RESET_ALL} │')
+    print(f'║ {(Fore.GREEN if opcao_selecionada == "2" else "")}2 - DEPÓSITO{Style.RESET_ALL} │')
+    print(f'║ {(Fore.GREEN if opcao_selecionada == "3" else "")}3 - EXTRATO{Style.RESET_ALL} │')
+    print(f'║ {(Fore.RED if opcao_selecionada == "4" else "")}4 - SAIR{Style.RESET_ALL} │')
+```
+
+## 📌 Melhorias Futuras
+
+- Implementação de **múltiplas contas**.
+- Armazenamento das transações em um **banco de dados**.
+- Interface gráfica para melhor experiência do usuário.
+
+---
+🚀 Desenvolvido por [**Alanderson de Paula**](alanderson.paula@gmail.com)
+
