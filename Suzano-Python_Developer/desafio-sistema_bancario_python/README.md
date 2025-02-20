@@ -12,13 +12,12 @@ Este projeto implementa um **Sistema Bancário Simples** com funcionalidades bá
 ## 📷 Demonstração
 
 ### 📌 Interface do Menu
-
 ![men1](img/menu.JPG)
 
 ### 📌 Seleção de Opções
 
-![menu2](img/menu1.JPG)
-![menu3](img/menu2.JPG)
+![menu2](img/menu3.JPG)
+<!-- ![menu3](img/menu2.JPG) -->
 
 ## 🛠️ Tecnologias Utilizadas
 
