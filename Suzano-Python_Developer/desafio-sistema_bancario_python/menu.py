@@ -8,7 +8,7 @@ init(autoreset=True)
 def exibir_menu(opcao_selecionada=None):
     """
     #### Exibe o menu principal do sistema bancário, destacando a opção selecionada.
-    
+
     :param opcao_selecionada: (str) Opção atualmente selecionada pelo usuário.
     """
     os.system('cls' if os.name == 'nt' else 'clear')
