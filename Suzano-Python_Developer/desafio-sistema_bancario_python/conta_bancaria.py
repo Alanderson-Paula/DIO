@@ -1,5 +1,9 @@
 from datetime import datetime
 
+from colorama import Fore, Style, init
+
+init(autoreset=True)
+
 
 class ContaBancaria:
     """
@@ -48,7 +52,7 @@ class ContaBancaria:
 
         self.saldo -= valor
         self.extrato.append(
-            f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} => Saque: R$ {valor:.2f}")
+            f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}" + Fore.RED + " <= " + Style.RESET_ALL + f"Saque:    R$ {valor:.2f}")
         self.numero_saques += 1
         return True
 
@@ -61,7 +65,7 @@ class ContaBancaria:
         if valor > 0:
             self.saldo += valor
             self.extrato.append(
-                f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} => Depósito: R$ {valor:.2f}")
+                f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}" + Fore.GREEN + " => " + Style.RESET_ALL + f"Depósito: R$ {valor:.2f}")
         else:
             print("Operação falhou! O valor informado é inválido.")
             return None
